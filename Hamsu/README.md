@@ -46,5 +46,5 @@
 ### 1. 컴파일
 
 ```bash
-gcc FunctionPractice.c -o FunctionPractice
-gcc PasswordQuiz.c -o PasswordQuiz
+gcc Hamsu.c -o Hamsu
+gcc Hamsugame.c -o Hamsugame
