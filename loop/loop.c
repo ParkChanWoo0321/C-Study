@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main_loop(void)
+int main(void)
 {
 	printf("Hello World\n");
 	printf("Hello World\n");
@@ -14,19 +14,19 @@ int main_loop(void)
 	printf("Hello World\n");
 	printf("Hello World\n");
 
-	// ++ »Ô»Ô
+	// ++ ë¿”ë¿”
 	int a = 10;
-	printf("a ´Â %d\n", a);
+	printf("a ëŠ” %d\n", a);
 	a++;
-	printf("a ´Â %d\n", a);
+	printf("a ëŠ” %d\n", a);
 	a++;
-	printf("a ´Â %d\n", a);
+	printf("a ëŠ” %d\n", a);
 
 	int b = 20;
 	// b = b + 1;
-	printf("b ´Â %d\n", ++b);
-	printf("b ´Â %d\n", b++);
-	printf("b ´Â %d\n", b);
+	printf("b ëŠ” %d\n", ++b);
+	printf("b ëŠ” %d\n", b++);
+	printf("b ëŠ” %d\n", b);
 
 	int i = 1;
 	printf("Hello World %d\n", i++);
@@ -40,16 +40,16 @@ int main_loop(void)
 	printf("Hello World %d\n", i++);
 	printf("Hello World %d\n", i++);
 
-	// ¹İº¹¹®
+	// ë°˜ë³µë¬¸
 	// for, while, do while
 
-	// for(¼±¾ğ; Á¶°Ç; Áõ°¨) { }
+	// for(ì„ ì–¸; ì¡°ê±´; ì¦ê°) { }
 	for (int i = 1; i <= 10; i++)
 	{
 		printf("Hello World %d\n", i);
 	}
 
-	// while (Á¶°Ç) { }
+	// while (ì¡°ê±´) { }
 	int i = 1;
 	while (i<=10)
 	{
@@ -57,24 +57,24 @@ int main_loop(void)
 		//i++;
 	}
 
-	// do { } while (Á¶°Ç);
+	// do { } while (ì¡°ê±´);
 	int i = 1;
 	do {
 		printf("Hello World %d\n", i++);
 	} while (i <= 10);
 
-	// 2Áß ¹İº¹¹®
+	// 2ì¤‘ ë°˜ë³µë¬¸
 	for (int i = 1; i <= 3; i++)
 	{
-		printf("Ã¹ ¹øÂ° ¹İº¹¹® : %d\n", i);
+		printf("ì²« ë²ˆì§¸ ë°˜ë³µë¬¸ : %d\n", i);
 		
 		for (int j = 1; j <= 5; j++)
 		{
-			printf("   µÎ ¹øÂ° ¹İº¹¹® : %d\n", j);
+			printf("   ë‘ ë²ˆì§¸ ë°˜ë³µë¬¸ : %d\n", j);
 		}
 	}
 
-	// ±¸±¸´Ü
+	// êµ¬êµ¬ë‹¨
 	// 2 x 1 = 2
 	// 2 x 2 = 4
 	// 2 x 3 = 6
@@ -83,7 +83,7 @@ int main_loop(void)
 	// 9 x 9 = 81
 	for (int i = 2; i <= 9; i++)
 	{
-		printf("%d´Ü °è»ê\n",i);
+		printf("%dë‹¨ ê³„ì‚°\n",i);
 		for (int j = 1; j <= 9; j++)
 		{
 			printf("%d x %d = %d\n", i, j, i * j);
@@ -125,7 +125,7 @@ int main_loop(void)
 		printf("\n");
 	}
 
-	// ÇÇ¶ó¹Ìµå¸¦ ½×¾Æ¶ó ÇÁ·ÎÁ§Æ®
+	// í”¼ë¼ë¯¸ë“œë¥¼ ìŒ“ì•„ë¼ í”„ë¡œì íŠ¸
 	/*
 		*
 	   ***
@@ -135,7 +135,7 @@ int main_loop(void)
 	*/
 
 	int floor;
-	printf("¸î ÃşÀ¸·Î ½×°Ú´À´À³Ä?");
+	printf("ëª‡ ì¸µìœ¼ë¡œ ìŒ“ê² ëŠëŠëƒ?");
 	scanf_s("%d", &floor);
 	for (int i = 0; i < floor; i++)
 	{
